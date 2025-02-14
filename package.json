@@ -1,15 +1,23 @@
 {
   "name": "twitter-clone",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a twitter clone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trijalayadav/Twitter-Clone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/trijalayadav/Twitter-Clone/issues"
+  },
+  "homepage": "https://github.com/trijalayadav/Twitter-Clone#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.2",

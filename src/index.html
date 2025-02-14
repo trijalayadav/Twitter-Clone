@@ -10,50 +10,70 @@
 
 <body class="bg-black text-white">
     <div class="flex flex-row container mx-auto">
-        <div class="first w-full text-xl">
-            <div class="sidebar">
-                <ul class="flex flex-col space-y-6">
-                    <li>
-                        <img class="m-[5px] p-[5px] w-8 invert hover:bg-slate-900 hover:rounded-2xl"
-                            src="../logos/logo.svg" alt="">
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8" src="../logos/home.png" alt="">
-                        <span>Home</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8" src="../logos/search.png" alt="">
-                        <span>Search</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8" src="../logos/notifications.png" alt="">
-                        <span>Notifications</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8" src="../logos/message.png" alt="">
-                        <span>Message</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8 invert" src="../logos/grok.svg" alt="">
-                        <span>Grok</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8" src="../logos/profile.png" alt="">
-                        <span>Profile</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8" src="../logos/more.png" alt="">
-                        <span>More</span>
-                    </li>
-                    <li class="flex gap-3 items-center">
-                        <img class="p-[5px] w-8 invert" src="../logos/post.svg" alt="">
-                        <span>Post</span>
-                    </li>
-                </ul>
+        <div class="first w-full text-xl p-5 bg-green-400">
+            <ul class="flex flex-col space-y-3">
+                <li class="mx-auto flex hover:bg-gray-700 hover:rounded-full w-fit hover:cursor-pointer px-1 py-1 ">
+                    <img class="m-[5px] w-8 invert" src="../logos/logo.svg" alt="">
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-700 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8" src="../logos/home.png" alt="">
+                    <span>Home</span>
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-800 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8" src="../logos/search.png" alt="">
+                    <span>Search</span>
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-800 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8" src="../logos/notifications.png" alt="">
+                    <span>Notifications</span>
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-800 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8" src="../logos/message.png" alt="">
+                    <span>Message</span>
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-800 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8 invert" src="../logos/grok.svg" alt="">
+                    <span>Grok</span>
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-800 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8" src="../logos/profile.png" alt="">
+                    <span>Profile</span>
+                </li>
+                <li
+                    class="flex gap-3 items-center hover:bg-gray-800 hover:rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8" src="../logos/more.png" alt="">
+                    <span>More</span>
+                </li>
+                <li
+                    class="text-black flex gap-3 items-center bg-white rounded-full hover:cursor-pointer w-fit px-5 py-2">
+                    <img class="w-8 hover:invert" src="../logos/post.svg" alt="">
+                    <span>Post</span>
+                </li>
+            </ul>
+        </div>
+        <div class="second w-full border-[1px] bg-yellow-400 border-x-gray-600 border-y-transparent">second</div>
+        <div class="third w-full px-5 py-1 space-y-4">
+            <div class="flex search bg-black border border-gray-600 items-center mx-auto">
+                <img class="h-5" src="../logos/search.png" alt="">
+                <input class="bg-black mx-auto w-10/12 outline-none border-none" type="text" name="" id=""
+                    placeholder="Search">
+            </div>
+            <div class="subscribe mx-auto space-y-2 border border-1 border-gray-600">
+                <h1 class="text-xl font-extrabold">Subscribe to Premium</h1>
+                <p class="font-normal">Subscribe to unlock new features and if eligible, receive a share of
+                    revenue.</p>
+                <button class="font-bold rounded-full bg-blue-500 px-5 py-1">Subscribe</button>
+            </div>
+            <div class="what's happening">
+                <h1 class="text-xl font-extrabold"></h1>
             </div>
         </div>
-        <div class="second w-full border-[1px] border-x-gray-600 border-y-transparent">second</div>
-        <div class="third w-full">third</div>
     </div>
 </body>
 
